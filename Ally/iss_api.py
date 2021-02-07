@@ -10,6 +10,7 @@ from datetime import datetime
 # 1. The get functions in the class could be rewritten into a single function to reduce the duplicate code.
 # 2. The display functions could be rewritten into a single function too. There is some duplicate code that could be condensed.
 # 3. Consider passing the parameters into main() kwargs.  For the limited number of parameters and options, probably not necessary.
+# 4. Check lat/long input to validate ints or floats are entered, and fall between -90.0 and 90.0
 
 api_uri = "http://api.open-notify.org/"
 
